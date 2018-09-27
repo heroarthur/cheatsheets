@@ -15,7 +15,7 @@ _**checking file existence and permissions**_
 > if [ -d "\$file" ]; then  
 > &nbsp;&nbsp;echo "\$file directory not exists"  
 > elif [ ! -f "\$file" ] || [ ! -w "\$file" ]; then  
-> &nbsp;&nbsp;echo "$file not exists or not writable"  	
+> &nbsp;&nbsp;echo "$file not exists or not writable"  
 > else  
 > &nbsp;&nbsp;echo $message > $file  
 > fi   

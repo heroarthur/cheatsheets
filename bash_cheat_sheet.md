@@ -13,11 +13,11 @@ _**checking file existence and permissions**_
 > **message**="echo msg";    
   
 > if [ -d "\$file" ]; then  
->   echo "\$file directory not exists"  
+> &nbsp;&nbsp;echo "\$file directory not exists"  
 > elif [ ! -f "\$file" ] || [ ! -w "\$file" ]; then  
->   echo "$file not exists or not writable"  	
+> &nbsp;&nbsp;echo "$file not exists or not writable"  	
 > else  
->   echo $message > $file  
+> &nbsp;&nbsp;echo $message > $file  
 > fi   
 
 
